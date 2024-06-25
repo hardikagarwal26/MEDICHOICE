@@ -37,7 +37,7 @@ MEDICHOICE is a machine learning-based application designed to predict diseases 
 - Thanks to the open-source community for their valuable resources and tools.
 - Special thanks to the contributors who have helped improve this project.
 
-![img 1](https://github.com/hardikagarwal26/medichoice/assets/115066977/4a3046cc-b121-4a65-80ec-b40c145e1012)
+ ![img 1](https://github.com/hardikagarwal26/MEDICHOICE/assets/115066977/62d52372-ad89-430b-8527-d852b8f98707)
 
 
-![img2](https://github.com/hardikagarwal26/medichoice/assets/115066977/8b5ca386-7bd5-4787-b166-d94f2a583357)
+ ![img2](https://github.com/hardikagarwal26/MEDICHOICE/assets/115066977/b2ed2187-57f4-47a4-8c79-c51280aebe76)
