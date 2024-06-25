@@ -1,35 +1,43 @@
+# MEDICHOICE
 
-# AYURSATHI - Disease Detection and Ayurvedic Medicine Recommendation System
-AYURSATHI is a web application that uses machine learning algorithms to detect diseases from symptoms and recommend Ayurvedic medicine. The application uses two machine learning models, both of which use decision tree algorithms.
+## Project Overview
 
-### Installation
-To run the application, you will need to install the many packages, some main one like:
+MEDICHOICE is a machine learning-based application designed to predict diseases based on input data and recommend appropriate Ayurvedic medicines for the diagnosed conditions. This project aims to leverage the power of data science and traditional Ayurvedic knowledge to provide an integrative approach to healthcare.
 
-* Flask
-* scikit-learn
-* pandas
-* numpy
+## Features
 
-To install these packages, you can use the following command:
+- *Disease Prediction*: Utilizes a dataset to train models that can predict potential diseases based on given input parameters.
+- *Ayurvedic Medicine Recommendation*: Provides recommendations for Ayurvedic treatments tailored to the predicted diseases.
+- *User-Friendly Interface*: Easy-to-use interface for data input and result visualization.
+  
+## Usage
 
-`pip install -r requirements.txt`
+1. *Data Preprocessing*:
+    - Use the data_preprocessing.py script or the data_preprocessing.ipynb notebook to preprocess the dataset.
+    bash
+    python src/data_preprocessing.py
+    
 
-### Usage
-To run the application, navigate to the Samudini directory and run the following command:
+2. *Train the Model*:
+    - Train the disease prediction model using the train_model.py script or the model_training.ipynb notebook.
+    bash
+    python src/train_model.py
+    
 
-`python app.py`
+3. *Run the Application*:
+    - Start the Flask web application to input patient data and get predictions.
+    bash
+    python app/app.py
+    
+    - Open a web browser and navigate to http://127.0.0.1:5000 to use the application.
 
-This will start the Flask development server, and the application will be accessible at http://localhost:5000.
 
-### Machine Learning Models
-The application uses two machine learning models to detect diseases and recommend Ayurvedic medicine:
+## Acknowledgments
 
-1. Decision Tree Classifier: This model is trained on a dataset of symptoms and their corresponding diseases. Given a set of symptoms, the model predicts the most likely disease.
+- Thanks to the open-source community for their valuable resources and tools.
+- Special thanks to the contributors who have helped improve this project.
 
-2. Decision Tree Classifier: This model is trained on a dataset of diseases and their corresponding Ayurvedic medicines. Given a disease, the model recommends the most effective Ayurvedic medicine.
+![img 1](https://github.com/hardikagarwal26/medichoice/assets/115066977/4a3046cc-b121-4a65-80ec-b40c145e1012)
 
-### Dataset
-The datasets used to train the machine learning models are available in the dataset directory of Nadun and Abdullah directory. The data.csv file contains a list of symptoms and their corresponding diseases, and the Drug prescription Dataset.csv file contains a list of diseases and their corresponding Ayurvedic medicines.
 
-### Contributing
-If you would like to contribute to this project, you can fork the repository and submit a pull request. Please make sure to follow the existing code style and include test cases for any new functionality.
+![img2](https://github.com/hardikagarwal26/medichoice/assets/115066977/8b5ca386-7bd5-4787-b166-d94f2a583357)
